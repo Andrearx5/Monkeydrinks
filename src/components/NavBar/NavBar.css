@@ -1,0 +1,48 @@
+.menu-navbar-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(88 28 135);
+    box-shadow: rgb(90, 84, 180) opx 4px 12px; 
+    height: 90px;
+ }
+
+ .menu-tittle{
+ 
+    margin-top: 25px;
+    color: white;
+    font-size: 28px;
+ }
+
+ .menu-items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 250px;
+
+ }
+
+ .menu-list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+
+ }
+
+ .navbar-logo{
+
+   width: 60px;
+   margin: 20px;
+ }
+
+ .active{
+   color: rgba(247, 220, 71, 0.979) ;
+ }
+
+ .inactive{
+   color: rgba(247, 246, 242, 0.979) ;
+ }

@@ -1,0 +1,18 @@
+.images_style{
+    display: inline-block;
+    justify-content: space-between;
+    background-color: rgb(247, 252, 246);
+    padding: 15px;
+    box-shadow: 0 25px 20px -12px rgba(187, 160, 252, 0.5);
+    border-radius: 15px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    
+}
+
+.colorText{
+    color: white;
+}
