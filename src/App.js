@@ -14,11 +14,11 @@ function App() {
       <Routes>
         <Route path="/" element={<ItemsListContainer/>}/>
         <Route path="/category/:categoryName" element={<ItemsListContainer/>}/>
-        <Route path="/item/:id" element={<ItemDetailContainer/>}/>
+        <Route path="/data/:id" element={<ItemDetailContainer/>}/>
         <Route path="CartWidget" element={<CartWidget/>}/>
       </Routes>
     </BrowserRouter>
-
+ 
   
 );
  

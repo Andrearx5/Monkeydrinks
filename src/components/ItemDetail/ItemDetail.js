@@ -4,13 +4,17 @@ import ItemCount from '../ItemCount/ItemCount';
 const ItemDetail = ({productSelected}) => {
 
   return (
-    <div>
-        <img src={productSelected.img} />
+    <div className="cardProduct">
+    
+        <img src={`/${productSelected.img}`} alt={productSelected.name} />
         <h1>{productSelected.tittle}</h1>
-        <h2>{productSelected.category}</h2>
+        <h3>{productSelected.category}</h3>
         <p>{productSelected.description}</p>
-        <h2> Precio ${productSelected.price}</h2>
+        <h3> Precio $: {productSelected.price}</h3>
+    <ItemCount/>
     </div>
+
+
   )
 };
 

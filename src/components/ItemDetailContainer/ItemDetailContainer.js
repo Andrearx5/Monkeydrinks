@@ -1,18 +1,18 @@
 
 import ItemDetail from "../ItemDetail/ItemDetail"
 import { useParams } from "react-router-dom"
-import { data } from "../Data/Data";
 import { useEffect, useState } from "react";
+import { data } from "../Data/Data";
 
 const ItemDetailContainer = () => {
 
-    const [productSelected, setProductSelected]= useState();
+    const [productSelected, setProductSelected] = useState();
     const {id} = useParams();
 
     const getProduct = () => {
-        const productFilter = data.filter((producto) => {
+        const productFilter = data.find((product) => {
 
-            return producto.id==id;
+            return product.id == id;
         })
         setProductSelected(productFilter)
     }

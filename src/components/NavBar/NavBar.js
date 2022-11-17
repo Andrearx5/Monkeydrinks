@@ -14,7 +14,7 @@ const NavBar = () => {
             <div className='menu-items' >
                 
                 <li>
-                    <NavLink className={({isActive})=>isActive ? 'active' : 'inactive'} to="/">Inicio</NavLink>
+                   <Link className='menu-list' to="/">Inicio</Link>
                 </li>
                 <li>
                     <Link className='menu-list' to="/category/Licores">Licores</Link>
