@@ -9,9 +9,9 @@ const Products = ({product}) => {
     <div className="images_style">
 
         <img src={product.img} />
-        <h2 className="font"> {product.tittle} </h2>
-        <h3 className="font"> {product.category} </h3>
-        <h3 className="font"> Precio: ${product.price} </h3>
+        <h2 className="font_tittle"> {product.tittle} </h2>
+        <h3 className="font_styles"> {product.category} </h3>
+        <h3 className="font_styles"> Precio: ${product.price} </h3>
         <div >
           <Link to={`/data/${product.id}`}><button className="boton">Comprar</button></Link>
         </div>

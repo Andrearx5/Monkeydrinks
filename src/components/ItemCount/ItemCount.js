@@ -21,8 +21,8 @@ const [contador, setContador] = useState(0);
         {contador}
       </p>
       <div>
-      <button className='btn btn-primary' onClick={less}>Quitar</button>
-        <button className='btn btn-primary' onClick={add}>Agregar</button>
+      <button className='boton' onClick={less}>Quitar</button>
+        <button className='boton' onClick={add}>Agregar</button>
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
 .menu-navbar-container{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(88 28 135);
+    background-color: #4e47b4;
     box-shadow: rgb(90, 84, 180) opx 4px 12px; 
     height: 90px;
  }
