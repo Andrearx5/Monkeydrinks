@@ -8,7 +8,7 @@ const Products = ({product}) => {
     <Link to={`data/${product.id}`}>
     <div className="images_style">
 
-        <img src={product.img} />
+        <img alt= '{product.tittle}' src={product.imageId} />
         <h2 className="font_tittle"> {product.tittle} </h2>
         <h3 className="font_styles"> {product.category} </h3>
         <h3 className="font_styles"> Precio: ${product.price} </h3>
@@ -21,5 +21,5 @@ const Products = ({product}) => {
     );
   };
   
-  export default Products
+  export default Products;
   

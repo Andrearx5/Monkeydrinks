@@ -1,31 +1,37 @@
-import {useState} from 'react'
+import { useEffect, useState } from "react";
 
-const ItemCount = () => {
+export const ItemCount = ({initial, stock, onAdd}) => {
+  const [contador, setContador] = useState(parseInt(initial));
 
-const [contador, setContador] = useState(0);
+  const addItem = () => {
+    setContador(contador + 1);
+  }
 
-    const add = ()=>{
-      setContador(contador + 1)
-      if(contador === 0){
-        return
-      }
-    }
+  const removeItem = () => {
+    setContador(contador - 1);
+  }
 
-    const less = ()=>{
-      setContador(contador - 1)
-    }
+  useEffect(() => {
+    setContador(parseInt(initial));
+}, [initial])
+
 
   return (
-    <div>
-      <p>
-        {contador}
-      </p>
+ 
       <div>
-      <button className='boton' onClick={less}>Quitar</button>
-        <button className='boton' onClick={add}>Agregar</button>
+        <button disabled={contador <= 1} className='boton_cart' onClick={removeItem}>-</button>
+        <span>{contador}</span>
+        <button disabled={contador >= stock} className='boton_cart' onClick={addItem}>+</button>
+
+
+        <button disabled={stock <=0} onClick={() => onAdd(contador)} className='boton_cart'>Agregar al carrito</button>
+        
+          
       </div>
-    </div>
-  )
-};
+    );
+}
 
 export default ItemCount;
+
+
+

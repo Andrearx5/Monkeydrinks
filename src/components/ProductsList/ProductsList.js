@@ -1,6 +1,7 @@
 import Products from "../Products/Products"
 
-const ProductsList = ({products}) => {
+
+const ProductsList = ({products = []}) => {
   return (
     <>
     {products.map((product) => (<Products product={product} key={product.id}/>
@@ -9,4 +10,4 @@ const ProductsList = ({products}) => {
   )
 };
 
-export default ProductsList
+export default ProductsList;

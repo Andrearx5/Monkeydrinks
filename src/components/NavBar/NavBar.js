@@ -2,6 +2,7 @@ import React from 'react'
 import CartWidget from '../CartWidget/CartWidget';
 import logo from '../../assets/logo.png'
 import{ Link, NavLink } from 'react-router-dom';
+import shopping from '../../assets/shopping.png'
 import './NavBar.css'
  
 
@@ -25,15 +26,15 @@ const NavBar = () => {
                 <li>
                     <Link className='menu-list' to="/category/Vinos">Vinos</Link>
                 </li>
-                <li>
-                    <Link className='menu-list' to="/category/Sinalcohol">Sin Alcohol</Link>
-                </li>
-                
+
 
             </div>
         </ul>
+        
+        <Link to="/Cart" ><img className='menu-navbar__img'src={shopping} alt="cart "/></Link>
         <CartWidget/>
     </div>
+
   );
 }
 

@@ -1,14 +1,17 @@
 import React from 'react'
-import shopping from '../../assets/shopping.png'
 import './CartWidget.css'
+import { useCartContext } from "../../context/CartProvider";
 
-const CartWidget = () => {
+export const CartWidget = () => {
+  const {totalProducts} = useCartContext();
+  
   return (
     <div className='menu_navbar__logo'>
-        <img className='menu-navbar__img'src={shopping} alt="cart widget"/>
+
+        <span>{totalProducts() || ''}</span>
 
     </div>
   )
 }
 
-export default CartWidget
+export default CartWidget;

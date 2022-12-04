@@ -36,8 +36,43 @@
     color: white;
     font-size: 14px;
     font-weight: bolder;
-    padding: 5px;
+    padding: 7px;
     border: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 50%;
+   
+    
+}
+
+.boton_cart{
+
+
+    background-color: #4e47b4;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 7px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+   
+    
+}
+
+.boton_bt{
+
+    background-color: #f5c93b;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40%;
+   
+    
 }
