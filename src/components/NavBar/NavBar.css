@@ -10,7 +10,7 @@
  
     margin-top: 25px;
     color: white;
-    font-size: 28px;
+    font-size: 25px;
  }
 
  .menu-items{
@@ -28,21 +28,14 @@
     text-decoration: none;
     color: white;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 
  }
 
  .navbar-logo{
 
-   width: 60px;
+   width: 50px;
    margin: 20px;
  }
 
- .active{
-   color: rgba(247, 220, 71, 0.979) ;
- }
-
- .inactive{
-   color: rgba(247, 246, 242, 0.979) ;
- }

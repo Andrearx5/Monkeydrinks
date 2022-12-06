@@ -12,6 +12,7 @@ const Products = ({product}) => {
         <h2 className="font_tittle"> {product.tittle} </h2>
         <h3 className="font_styles"> {product.category} </h3>
         <h3 className="font_styles"> Precio: ${product.price} </h3>
+        <h3 className="font_styles"> Stock actual: {product.stock} unidades </h3>
         <div >
           <Link to={`/data/${product.id}`}><button className="boton">Comprar</button></Link>
         </div>

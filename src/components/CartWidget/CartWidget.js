@@ -4,9 +4,8 @@ import { useCartContext } from "../../context/CartProvider";
 
 export const CartWidget = () => {
   const {totalProducts} = useCartContext();
-  
   return (
-    <div className='menu_navbar__logo'>
+    <div className= 'cart_menu_num'>
 
         <span>{totalProducts() || ''}</span>
 

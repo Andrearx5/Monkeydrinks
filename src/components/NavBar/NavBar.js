@@ -1,7 +1,7 @@
 import React from 'react'
 import CartWidget from '../CartWidget/CartWidget';
 import logo from '../../assets/logo.png'
-import{ Link, NavLink } from 'react-router-dom';
+import{ Link } from 'react-router-dom';
 import shopping from '../../assets/shopping.png'
 import './NavBar.css'
  

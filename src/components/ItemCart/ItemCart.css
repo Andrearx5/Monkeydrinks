@@ -1,0 +1,28 @@
+.cartProducts{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.cart{
+    
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%x;
+    margin: 20px;
+    
+    
+}
+
+.tittleCart{
+    font-size: 17px;
+}
+
+.subtittleCart{
+    font-size: 14px;
+}

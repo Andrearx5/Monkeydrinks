@@ -1,3 +1,24 @@
+# Monkey Drinks 
+
+Es un eCommerce de venta de bebidas alcoholicas para todos los gustos, tenemos licores, cervezas, vinos. A los mejores precios del mercado
+
+## Esta creado con:
+
+ReactJS
+Css
+Librerias: Moment
+           Sweetalert
+Firebase 
+
+## Asi funciona: 
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
