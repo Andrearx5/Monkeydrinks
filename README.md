@@ -6,9 +6,7 @@ Es un eCommerce de venta de bebidas alcoholicas para todos los gustos, tenemos l
 
 - ReactJS
 - Css
-- Librerias: 
-		Moment
-         Sweetalert
+- Librerias: Moment, Sweetalert
 - Firebase 
 
 ## Asi funciona: 
