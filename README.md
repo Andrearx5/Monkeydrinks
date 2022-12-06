@@ -13,6 +13,8 @@ Es un eCommerce de venta de bebidas alcoholicas para todos los gustos, tenemos l
 
 ## Asi funciona: 
 
+https://user-images.githubusercontent.com/108308211/205804861-9251abe8-261c-43f3-936c-03979fe0c90a.mp4
+
 
 
 
